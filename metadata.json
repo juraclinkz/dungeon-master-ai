@@ -1,0 +1,7 @@
+{
+  "name": "Dungeon Master",
+  "description": "Un asistente de rol inteligente que gestiona tiradas de dados, narrativas de combate y eventos aleatorios de mazmorras usando Gemini AI.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

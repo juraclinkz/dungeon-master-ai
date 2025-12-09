@@ -1,0 +1,26 @@
+
+{
+  "name": "Dungeon Master AI",
+  "short_name": "DM AI",
+  "description": "Juego de rol y mazmorras asistido por IA.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "portrait",
+  "categories": ["games", "entertainment", "role-playing"],
+  "icons": [
+    {
+      "src": "https://api.dicebear.com/9.x/pixel-art/svg?seed=DungeonMaster&backgroundColor=b45309",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://api.dicebear.com/9.x/pixel-art/svg?seed=DungeonMaster&backgroundColor=b45309",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
