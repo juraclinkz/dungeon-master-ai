@@ -10,7 +10,7 @@ import GameSync from './components/GameSync';
 import PartySidebar from './components/PartySidebar';
 import { generateCombatNarrative } from './services/geminiService';
 import { p2pService, P2PData } from './services/p2pService';
-import { ScrollText, Swords, Sparkles, History, Backpack, Footprints, MessageSquare, Calculator, Shield, Map, Skull, Users, Play, UserPlus, QrCode, Wifi, ChevronDown, ChevronRight, Settings, X, Crosshair, Zap, Activity, Info, Lock, ArrowLeft, Coins, Trophy, Download, KeyRound, LogIn, LogOut, ExternalLink, Clipboard, Eye, EyeOff, HelpCircle, Loader2, RotateCcw, Target, ShieldAlert, Footprints as FootIcon, BicepsFlexed, CheckCircle2, TrendingDown, User, Smartphone, BrainCircuit, Gem, ChevronLeft } from 'lucide-react';
+import { ScrollText, Swords, Sparkles, History, Backpack, Footprints, MessageSquare, Calculator, Shield, Map, Skull, Users, Play, UserPlus, QrCode, Wifi, ChevronDown, ChevronRight, Settings, X, Crosshair, Zap, Activity, Info, Lock, ArrowLeft, Coins, Trophy, Download, KeyRound, LogIn, LogOut, ExternalLink, Clipboard, Eye, EyeOff, HelpCircle, Loader2, RotateCcw, Target, ShieldAlert, Footprints as FootIcon, Dumbbell, CheckCircle2, TrendingDown, User, Smartphone, BrainCircuit, Gem, ChevronLeft } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 
 const DEFAULT_STAT_ORDER = ['damage', 'defense', 'hit', 'critC', 'critM'];
@@ -1084,7 +1084,7 @@ const App: React.FC = () => {
 
                      {/* Right Arm (Weapon) */}
                      <button onClick={() => setSelectedBodyPart('arm_r')} className={`col-start-3 h-24 rounded-xl border-2 flex flex-col items-center justify-center transition-all ${selectedBodyPart === 'arm_r' ? 'bg-orange-900/40 border-orange-500 scale-105 shadow-[0_0_15px_rgba(249,115,22,0.4)]' : 'bg-slate-800 border-slate-600 hover:border-slate-400 hover:bg-slate-700'}`}>
-                         <BicepsFlexed size={32} className={`${selectedBodyPart === 'arm_r' ? 'text-orange-400' : 'text-slate-400'}`} />
+                         <Dumbbell size={32} className={`${selectedBodyPart === 'arm_r' ? 'text-orange-400' : 'text-slate-400'}`} />
                          <span className={`text-xs font-bold uppercase mt-2 ${selectedBodyPart === 'arm_r' ? 'text-white' : 'text-slate-400'}`}>Arma</span>
                      </button>
 
